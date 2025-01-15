@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body, html{
+    color: aliceblue;
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .lobby{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-top: 50px;
+    width: 80vh;
+    height: 10vh;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.9s ease;
+}
+
+.lobby:hover{
+    box-shadow: 0 0 30px darkviolet;
+    transform: scale(1.1);
+    
+}
+
+a{
+    color: aliceblue;
+    font-family: "Cairo Play", serif;
+}
+
+a:hover{
+    color: darkviolet;
+}
