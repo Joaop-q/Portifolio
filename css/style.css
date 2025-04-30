@@ -48,6 +48,5 @@ img{
 img:hover{
     background-color:darkviolet;
     transform: scale(1.2);
-    background-image: ;
-    
+    background-color: transparent;
 }
